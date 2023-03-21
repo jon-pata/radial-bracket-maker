@@ -1,55 +1,55 @@
 {
-    "round": [
+    "rounds": [
       {
         "roundOf": 8,
         "teams": [
           {
-            "CellId": 1,
-            "Name": "New England",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_Logo_480x480.png",
-            "Color": "#0e223f"
+            "cellId": 1,
+            "name": "New England",
+            "logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_logo_480x480.png",
+            "color": "#0e223f"
           },
           {
-            "CellId": 2,
-            "Name": "Orlando City",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6900-orlando-logo_tfcjmq.png",
-            "Color": "#633492"
+            "cellId": 2,
+            "name": "Orlando City",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6900-orlando-logo_tfcjmq.png",
+            "color": "#633492"
           },
           {
-            "CellId": 3,
-            "Name": "Columbus Crew",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1623700105/assets/clb/logos/Crew_Crest_White_etrj73.png",
-            "Color": "#fef200"
+            "cellId": 3,
+            "name": "Columbus Crew",
+            "logo": "https://images.mlssoccer.com/image/upload/v1623700105/assets/clb/logos/Crew_Crest_White_etrj73.png",
+            "color": "#fef200"
           },
           {
-            "CellId": 4,
-            "Name": "Nashville SC",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970761/assets/logos/15154-nashville-logo_ldatso.png",
-            "Color": "#1f1645"
+            "cellId": 4,
+            "name": "Nashville SC",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970761/assets/logos/15154-nashville-logo_ldatso.png",
+            "color": "#1f1645"
           },
           {
-            "CellId": 5,
-            "Name": "Seattle Sounders",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
-            "Color": "#5d9742"
+            "cellId": 5,
+            "name": "Seattle Sounders",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
+            "color": "#5d9742"
           },
           {
-            "CellId": 6,
-            "Name": "FC Dallas",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970753/assets/logos/1903-fc-dallas-logo_zf5uiy.png",
-            "Color": "#e81f3f"
+            "cellId": 6,
+            "name": "FC Dallas",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970753/assets/logos/1903-fc-dallas-logo_zf5uiy.png",
+            "color": "#e81f3f"
           },
           {
-            "CellId": 7,
-            "Name": "Minnesota United",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
-            "Color": "#8cd2f4"
+            "cellId": 7,
+            "name": "Minnesota United",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
+            "color": "#8cd2f4"
           },
           {
-            "CellId": 8,
-            "Name": "SKC",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970745/assets/logos/421-sporting-kc-logo_pyhxo8.png",
-            "Color": "#90b0d6"
+            "cellId": 8,
+            "name": "SKC",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970745/assets/logos/421-sporting-kc-logo_pyhxo8.png",
+            "color": "#90b0d6"
           }
         ]
       },
@@ -57,28 +57,28 @@
         "roundOf": 4,
         "teams": [
           {
-            "CellId": 1,
-            "Name": "New England",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_Logo_480x480.png",
-            "Color": "#0e223f"
+            "cellId": 1,
+            "name": "New England",
+            "logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_logo_480x480.png",
+            "color": "#0e223f"
           },
           {
-            "CellId": 2,
-            "Name": "Columbus Crew",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1623700105/assets/clb/logos/Crew_Crest_White_etrj73.png",
-            "Color": "#fef200"
+            "cellId": 2,
+            "name": "Columbus Crew",
+            "logo": "https://images.mlssoccer.com/image/upload/v1623700105/assets/clb/logos/Crew_Crest_White_etrj73.png",
+            "color": "#fef200"
           },
           {
-            "CellId": 3,
-            "Name": "Seattle Sounders",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
-            "Color": "#5d9742"
+            "cellId": 3,
+            "name": "Seattle Sounders",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
+            "color": "#5d9742"
           },
           {
-            "CellId": 4,
-            "Name": "Minnesota United",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
-            "Color": "#8cd2f4"
+            "cellId": 4,
+            "name": "Minnesota United",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1614970757/assets/logos/6977-minnesota-logo_tzjlhe.png",
+            "color": "#8cd2f4"
           }
         ]
       },
@@ -86,16 +86,16 @@
         "roundOf": 2,
         "teams": [
           {
-            "CellId": 1,
-            "Name": "New England",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_Logo_480x480.png",
-            "Color": "#0e223f"
+            "cellId": 1,
+            "name": "New England",
+            "logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_logo_480x480.png",
+            "color": "#0e223f"
           },
           {
-            "CellId": 2,
-            "Name": "Seattle Sounders",
-            "Logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
-            "Color": "#5d9742"
+            "cellId": 2,
+            "name": "Seattle Sounders",
+            "logo": "https://images.mlssoccer.com/image/upload/t_q-best/v1630008257/assets/logos/SFC_Crest_480x480.png",
+            "color": "#5d9742"
           }
         ]
       },
@@ -103,10 +103,10 @@
         "roundOf": 1,
         "teams": [
           {
-            "CellId": 1,
-            "Name": "New England",
-            "Logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_Logo_480x480.png",
-            "Color": "#0e223f"
+            "cellId": 1,
+            "name": "New England",
+            "logo": "https://images.mlssoccer.com/image/upload/v1637679595/assets/ner/logos/NE_logo_480x480.png",
+            "color": "#0e223f"
           }
         ]
       }
