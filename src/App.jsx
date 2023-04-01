@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import { Bracket } from './components/Bracket/Bracket'
 
 function App() {
 
   const [data, setData] = useState({rounds:[]});
-  const [roundCount, setRoundCount] = useState();
+  const [slider, setSlider] = useState(1);
 
   const handleSliderChange = (e) => {
     setInitialData(e.target.value);
+    setSlider(e.target.value);
   }
 
   const generateTeams = (round) => {
@@ -20,6 +21,10 @@ function App() {
     }
     return teams;
   }
+
+  useEffect(()=>{
+    setInitialData(1);
+  }, []);
 
   const setInitialData = (numRounds) => {
     let d = {};
@@ -37,9 +42,9 @@ function App() {
   return (
     <div className="App">
       <label htmlFor="customRange3" className="form-label">Example range</label>
-      <input type="range" className="form-range" min="1" max="8" 
+      <input type="range" className="form-range" min="1" max="8" value={slider}
         step="1" id="customRange3" onChange={handleSliderChange} ></input>
-      <Bracket data={data} setData={setData} roundCount={roundCount} />
+      <Bracket data={data} setData={setData}/>
     </div>
   )
 }

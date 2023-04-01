@@ -2,7 +2,7 @@ import React from "react"
 import './Bracket.css'
 import { Round } from "../Round/Round";
 
-export const Bracket = ({data, setData, roundCount}) => {
+export const Bracket = ({data, setData}) => {
 
     console.log(`data: ${data}`);
     const rounds = data.rounds;
