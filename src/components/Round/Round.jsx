@@ -14,7 +14,7 @@ export const Round = ({ roundOf, teams, data, setData }) => {
 
     const calculateMatchWidth = () => {
         let screenW = document.querySelector("#root").offsetWidth;
-        let w = screenW / teams.length;
+        let w = (screenW / teams.length)*2;
         return `${w}px`
     }
 

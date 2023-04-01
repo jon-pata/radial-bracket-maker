@@ -7,12 +7,12 @@ export const Cell = ({ color, src, width , data, setData}) => {
     const cellStyle = {
         backgroundColor : cellColor,
         height: '100px',
-        width: '100px'
+        width: '100%'
     };
     const cellStyleBlank = {
-        backgroundColor : 'grey',
+        backgroundColor : color,
         height: '100px',
-        width: '100px'
+        width: '100%'
     };
 
     const changeStyle = () => {

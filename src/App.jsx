@@ -14,9 +14,11 @@ function App() {
 
   const generateTeams = (round) => {
     const teams = [];
-    for(let i = 2**(round -1); i > 0; i--){
+    for(let i = 2**(round -1), j=1; i > 0; i--, j++){
+      let col = (j%2==0) ? "#cccccc" : "#999999";
       teams.push({
-        color: "#333333"
+        cellId: j,
+        color: col
       })
     }
     return teams;
