@@ -2,7 +2,7 @@ import React from "react"
 import './Round.css'
 import { Match } from "../Match/Match";
 
-export const Round = ({ roundOf, teams, ourData, setOurData }) => {
+export const Round = ({ roundOf, teams, data, setData }) => {
     const matches = [];
 
     for (let i = 0; i < teams.length; i+=2) {
@@ -18,7 +18,7 @@ export const Round = ({ roundOf, teams, ourData, setOurData }) => {
         matches.map((match) => {
             return (
                 <>
-                    <Match match={match} ourData={ourData} setOurData={setOurData}/>
+                    <Match match={match} data={data} setData={setData}/>
                 </>
             )
         })

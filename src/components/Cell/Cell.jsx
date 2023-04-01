@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-export const Cell = ({ color, src, width , ourData, setOurData}) => {
+export const Cell = ({ color, src, width , data, setData}) => {
 
     const [cellColor, setCellColor ] = useState(color);
 
