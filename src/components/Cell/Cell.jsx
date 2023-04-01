@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./Cell.css"
 
 export const Cell = ({ color, src, width , data, setData}) => {
 
@@ -22,11 +23,11 @@ export const Cell = ({ color, src, width , data, setData}) => {
     return (
         <>
             {color && src ?
-                <div style={cellStyle} onClick={changeStyle} >
+                <div style={cellStyle} onClick={changeStyle} className="cell">
                     <img height="90px" width="90px" src={src} />
                 </div>
                 :
-                <div style={cellStyleBlank}/>
+                <div style={cellStyleBlank} className="cell"/>
             }
         </>
     )
