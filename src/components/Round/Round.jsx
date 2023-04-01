@@ -12,13 +12,19 @@ export const Round = ({ roundOf, teams, data, setData }) => {
         matches.push(match)
     }
 
+    const calculateMatchWidth = () => {
+        let screenW = document.querySelector("#root").offsetWidth;
+        let w = screenW / teams.length;
+        return `${w}px`
+    }
+
     console.log(matches);
 
     return (
         matches.map((match) => {
             return (
                 <>
-                    <Match match={match} data={data} setData={setData}/>
+                    <Match match={match} data={data} setData={setData} width={calculateMatchWidth()}/>
                 </>
             )
         })
